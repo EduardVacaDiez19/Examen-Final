@@ -1,0 +1,68 @@
+# Gestión de reservas en un hostal rural
+
+
+##  Introduccion:
+Este sistema busca optimizar el proceso de reserva de habitaciones, 
+permitiendo a los clientes seleccionar fechas de entrada y salida, registrar sus datos personales y recibir confirmación de la reserva.
+Además, facilitará al personal del hostal la administración eficiente de las reservas
+y la realización del proceso de check-in de forma más ágil y organizada.
+
+### Descripción general del sistema
+El sistema de gestión de reservas para el Hostal “Monte Verde” será una plataforma web (o aplicación) que permitirá realizar las siguientes funciones principales:
+
+Reserva de habitaciones: Los clientes podrán ingresar a la plataforma, seleccionar fechas de entrada y salida, visualizar disponibilidad, elegir tipo de habitación y registrar sus datos personales.
+
+Gestión de datos del cliente: El sistema almacenará la información personal necesaria para completar la reserva, como nombre, contacto y preferencias.
+
+Confirmación de reservas: Una vez completado el proceso, el cliente recibirá un resumen de la reserva y una confirmación vía correo electrónico.
+
+Check-in digital: El personal del hostal podrá acceder al sistema para consultar reservas activas y registrar el check-in del cliente de forma sencilla.
+
+Panel administrativo: El sistema incluirá un módulo para que los administradores gestionen reservas, consulten estadísticas de ocupación y generen reportes.
+
+Este sistema será una herramienta clave para mejorar la eficiencia operativa del hostal, brindando una experiencia moderna y profesional tanto para los clientes como para el personal encargado.
+
+
+
+### Objetivo General
+
+Reservar habitaciones con fecha y datos de cliente.
+
+### Objetivos específicos
+
+1. Permitir a los usuarios seleccionar la fecha de entrada y salida para la reserva.
+2. Registrar y gestionar los datos personales del cliente durante la reserva.
+3. Completar la reserva de la habitación con confirmación y detalles.
+
+## HISTORIAS DE USUARIO OBJETIVO ESPECÍFICO 1
+
+1. Como cliente, quiero seleccionar la fecha de entrada para que el sistema sepa cuándo llego.
+2. Como cliente, quiero seleccionar la fecha de salida para definir la duración de mi estancia.
+3. Como cliente, quiero ver un calendario para elegir las fechas de forma visual.
+4. Como cliente, quiero que el sistema me impida seleccionar fechas pasadas.
+5. Como cliente, quiero recibir un mensaje si la fecha de salida es anterior a la de entrada.
+6. Como cliente, quiero que el sistema me muestre la disponibilidad en función de las fechas seleccionadas.
+
+---
+
+## HISTORIAS DE USUARIO OBJETIVO ESPECÍFICO 2
+
+1. Como cliente, quiero ingresar mi nombre completo para que la reserva esté a mi nombre.
+2. Como cliente, quiero proporcionar mi correo electrónico para recibir la confirmación.
+3. Como cliente, quiero ingresar mi número de teléfono para posibles contactos del hotel.
+4. Como cliente, quiero guardar mis datos para futuras reservas más rápidas.
+5. Como administrador, quiero validar que los datos del cliente estén completos antes de guardar la reserva.
+6. Como cliente, quiero recibir un resumen de los datos que ingresé antes de confirmar la reserva.
+
+---
+
+## HISTORIAS DE USUARIO OBJETIVO ESPECÍFICO 3
+
+1. Como cliente, quiero seleccionar el tipo de habitación para adaptarla a mis necesidades.
+2. Como cliente, quiero ver el precio total antes de confirmar la reserva.
+3. Como cliente, quiero confirmar la reserva y recibir un comprobante por correo.
+4. Como cliente, quiero ver un resumen con fechas, tipo de habitación y mis datos antes de finalizar.
+5. Como administrador, quiero guardar la reserva en la base de datos para llevar control del hospedaje.
+6. Como cliente, quiero modificar mi reserva en caso de que me equivoque antes de confirmar.
+
+
